@@ -1,0 +1,54 @@
+p{
+    font-family: Serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    color: darkorange;
+}
+
+a{
+    color: #00cc00;
+}
+
+a:hover{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+
+body{
+    max-width: 90%;
+    margin: 3%;
+    background-image: url("chinesebackground.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+.villager{
+    color: darkgreen;
+}
+
+.farmer{
+    color: lightskyblue;
+}
+
+header > time{
+    background-color: Yellow;
+}
+
+.grey{
+    background-color: grey;
+}
+.white{
+    background-color: white;
+}
+
+.story{
+    font-weight: bold;
+}
+
+img{
+    float: right;
+    margin: 10px;
+}
