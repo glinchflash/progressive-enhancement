@@ -82,18 +82,20 @@ header > time{
 
 table{
     font-size: 18px;
+
 }
 
-.grey{
+tr:nth-child(odd){
     background-color: grey;
     color: white;
     text-align: center;
 }
 
-.white{
+tr:nth-child(even){
     background-color: white;
     text-align: center;
 }
+
 
 h1 + p{
     font-weight: bold;
