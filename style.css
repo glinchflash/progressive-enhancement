@@ -34,6 +34,35 @@ a:hover{
     color: red;
 }
 
+.hovertext {
+    position: relative;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #f6f6b5;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+    overflow-wrap: break-word;
+
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
 
 q{
     font-style: italic;
