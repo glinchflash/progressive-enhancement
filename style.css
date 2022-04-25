@@ -1,3 +1,18 @@
+@font-face {
+    font-family: OpenSans;
+    src: local(OpenSans-Regular);
+}
+
+body{
+    max-width: 90%;
+    margin: 3%;
+    background-image: url("chinesebackground.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    font-family: OpenSans;
+}
+
 p{
     font-family: Serif;
     font-size: 20px;
@@ -10,21 +25,15 @@ a{
     font-size: 20px;
 }
 
-a:hover{
-    color: red;
-}
+
 a:visited{
     color: rgba(0, 255, 60, 0.65);
 }
 
-body{
-    max-width: 90%;
-    margin: 3%;
-    background-image: url("chinesebackground.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: cover;
+a:hover{
+    color: red;
 }
+
 
 q{
     font-style: italic;
@@ -49,10 +58,12 @@ table{
 .grey{
     background-color: grey;
     color: white;
+    text-align: center;
 }
 
 .white{
     background-color: white;
+    text-align: center;
 }
 
 .first{
@@ -61,7 +72,7 @@ table{
 
 img{
     float: right;
-    margin: 10px;
+    margin: 12px;
 }
 
 .good{
@@ -72,4 +83,13 @@ img{
 .bad{
     color: red;
     text-transform: uppercase;
+}
+
+blockquote, address{
+    color: darkblue;
+}
+
+
+em{
+    font-style: normal;
 }
