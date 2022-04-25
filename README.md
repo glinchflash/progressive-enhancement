@@ -1,1 +1,1 @@
-# progressive-enhancement
+https://glinchflash.github.io/progressive-enhancement/
