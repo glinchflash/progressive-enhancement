@@ -2,18 +2,19 @@ p{
     font-family: Serif;
     font-size: 20px;
     word-spacing: 3px;
-    color: darkorange;
+    color: darkblue;
 }
 
 a{
-    color: #00cc00;
+    color: #0047cc;
+    font-size: 20px;
 }
 
 a:hover{
     color: red;
 }
 a:visited{
-    color: yellow;
+    color: rgba(0, 255, 60, 0.65);
 }
 
 body{
@@ -25,30 +26,50 @@ body{
     background-size: cover;
 }
 
+q{
+    font-style: italic;
+}
+
 .villager{
-    color: darkgreen;
+    color: rgb(238, 0, 255);
 }
 
 .farmer{
-    color: lightskyblue;
+    color: lime;
 }
 
 header > time{
     background-color: Yellow;
 }
 
+table{
+    font-size: 18px;
+}
+
 .grey{
     background-color: grey;
+    color: white;
 }
+
 .white{
     background-color: white;
 }
 
-.story{
+.first{
     font-weight: bold;
 }
 
 img{
     float: right;
     margin: 10px;
+}
+
+.good{
+    text-transform: uppercase;
+    color: lime;
+}
+
+.bad{
+    color: red;
+    text-transform: uppercase;
 }
