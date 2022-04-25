@@ -95,7 +95,7 @@ table{
     text-align: center;
 }
 
-.first{
+h1 + p{
     font-weight: bold;
 }
 
